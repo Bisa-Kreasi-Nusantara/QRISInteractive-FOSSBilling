@@ -1,13 +1,17 @@
 {
-  "id": "qris_payment",
-  "type": "Payment gateway",
-  "name": "QRIS Interactive Payment Gateway",
-  "description": "QRIS Interactive payment gateway integration by Bisa Kreasi Nusantara for FOSSBilling",
-  "icon_url": "icon.png",
-  "version": "1.0.0",
-  "release_date": "2024-02-07",
+  "id": "Qris",
+  "type": "mod",
+  "name": "QRIS Interactive",
+  "description": "Accept payments via QRIS Interactive payment gateway",
+  "homepage_url": "https://qris.id",
+  "author": "Aditya Nurdin - Bisa Kreasi Nusantara",
+  "author_url": "https://bisakreasi.com",
   "license": "Apache-2.0",
-  "author": "Muhammad Aditya Nurdin",
-  "author_url": "https://bisakreasi.com"
+  "version": "1.0.0",
+  "minimum_fossbilling_version": "0.5.0",
+  "require": {
+    "php": ">=7.4.0",
+    "php-curl": "*"
+  }
 }
 
